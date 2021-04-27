@@ -98,7 +98,6 @@ main ()
 //
         min = 60.0*(spa.sunset - (int)(spa.sunset));
         sec = 60.0*(min - (int)min);
-//        cout << "Sunset:    Local Time\n", (int)(spa.sunset), (int)min, (int)sec);
         cout << "Sunset:        " <<  (int)(spa.sunset) << ":" << (int)min 
 		<< ":" << (int)sec << " Local Time" << endl;
 		cout << "********** El Alto neighborhood Sun Position  ***************" << endl;	
