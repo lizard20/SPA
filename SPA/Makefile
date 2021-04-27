@@ -21,12 +21,6 @@ $(BIN): $(OBJS)
 run: ${BIN}
 	./${BIN}
 
-git:
-	@echo "github updating ..."
-	git add .
-	git commit -m "$m"
-	git push
-
 clean:
 	@echo "Cleaning ..." 
 	$(RM) -r ${BIN} ${OBJS}
