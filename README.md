@@ -1,2 +1,2 @@
 # SPA
-Solar Position Algorithm
+Solar Position Algorithm in C and C++
